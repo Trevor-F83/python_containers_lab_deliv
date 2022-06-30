@@ -42,8 +42,8 @@ print(f'I was born in {city}, {state} with a population of {population}')
             # Exercise 5
             # Iterate over key:value in home_town and print
                 #string for each
-
-print(f'{home_town}')
+for key, value in home_town.items():
+    print(f'{key} = {value}')
 
             # Exercise 6
             # Create empty list named cohort
@@ -58,7 +58,8 @@ my_dictionary = {'student': 'Tina',
 my_dictionary_copy = my_dictionary.copy()
 cohort.append(my_dictionary_copy)
 for key, value in my_dictionary.items():
-    print(f'{key} : {value}')   
+    # print(f'{key} : {value}')   
+    print(cohort)
 
 
             # Exercise 7
